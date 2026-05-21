@@ -1,9 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>AWS DevOps Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS DevOps Project</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:linear-gradient(135deg,#0f172a,#1e293b,#334155);
+            color:white;
+        }
+
+        .container{
+            text-align:center;
+            background:rgba(255,255,255,0.1);
+            padding:40px;
+            border-radius:20px;
+            box-shadow:0 8px 20px rgba(0,0,0,0.3);
+            width:90%;
+            max-width:600px;
+        }
+
+        h1{
+            font-size:40px;
+            margin-bottom:20px;
+            color:#38bdf8;
+        }
+
+        p{
+            font-size:20px;
+            margin-bottom:15px;
+        }
+
+        .status{
+            color:#22c55e;
+            font-weight:bold;
+            font-size:22px;
+        }
+
+        .footer{
+            margin-top:20px;
+            font-size:16px;
+            color:#cbd5e1;
+        }
+
+        @media(max-width:600px){
+            h1{
+                font-size:28px;
+            }
+
+            p{
+                font-size:18px;
+            }
+        }
+    </style>
 </head>
+
 <body>
-<h1>CI/CD Pipeline Working Successfully 🚀</h1>
+
+    <div class="container">
+        <h1>AWS DevOps Project Success 🚀</h1>
+
+        <p>CI/CD Pipeline Working Successfully</p>
+
+        <p class="status">Deployment Successful ✅</p>
+
+        <div class="footer">
+            GitHub → Jenkins → Docker → AWS EC2
+        </div>
+    </div>
+
 </body>
 </html>
