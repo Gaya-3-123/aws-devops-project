@@ -1,90 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AWS DevOps Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS DevOps Project</title>
 
-<style>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,sans-serif;
-}
+        body{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+        }
 
-body{
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background:linear-gradient(135deg,#0f172a,#1e293b,#334155);
-    color:white;
-}
+        .container{
+            width:450px;
+            padding:40px;
+            text-align:center;
+            border-radius:20px;
+            background:rgba(255,255,255,0.1);
+            backdrop-filter:blur(10px);
+            box-shadow:0 8px 25px rgba(0,0,0,0.4);
+            color:white;
+        }
 
-.container{
-    width:90%;
-    max-width:600px;
-    text-align:center;
-    background:rgba(255,255,255,0.1);
-    padding:40px;
-    border-radius:20px;
-    box-shadow:0 8px 20px rgba(0,0,0,0.4);
-}
+        h1{
+            font-size:42px;
+            margin-bottom:20px;
+            color:#00e5ff;
+        }
 
-h1{
-    font-size:42px;
-    color:#38bdf8;
-    margin-bottom:20px;
-}
+        h2{
+            color:#00ff88;
+            margin-bottom:15px;
+        }
 
-p{
-    font-size:20px;
-    margin-bottom:15px;
-}
+        p{
+            font-size:20px;
+            margin-bottom:10px;
+        }
 
-.status{
-    color:#22c55e;
-    font-weight:bold;
-}
+        .pipeline{
+            margin-top:20px;
+            font-size:18px;
+            color:#ffffff;
+        }
 
-.footer{
-    margin-top:20px;
-    color:#cbd5e1;
-}
+        @media(max-width:500px){
+            .container{
+                width:90%;
+                padding:25px;
+            }
 
-@media(max-width:600px){
-
-    h1{
-        font-size:30px;
-    }
-
-    p{
-        font-size:18px;
-    }
-
-}
-
-</style>
-
+            h1{
+                font-size:32px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-<div class="container">
+    <div class="container">
+        <h1>AWS DevOps Project Final Success 🚀</h1>
 
-<h1>AWS DevOps Project Success 🚀</h1>
+        <p>CI/CD Pipeline Working Successfully</p>
 
-<p>CI/CD Pipeline Working Successfully</p>
+        <h2>Deployment Successful ✅</h2>
 
-<p class="status">Deployment Successful ✅</p>
-
-<div class="footer">
-GitHub → Jenkins → Docker → AWS EC2
-</div>
-
-</div>
+        <div class="pipeline">
+            GitHub → Jenkins → Docker → AWS EC2
+        </div>
+    </div>
 
 </body>
 </html>
